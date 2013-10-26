@@ -28,5 +28,10 @@ namespace IISMVC.Controllers
 
             return View();
         }
+
+        public ViewResult Taxes()
+        {
+            return View();
+        }
     }
 }
