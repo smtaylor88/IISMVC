@@ -90,6 +90,22 @@ h5, h6 {
         text-decoration: none;
     }
 
+.ind-dos-window {
+	background:	#333; 
+    color: red;
+	border:		1px solid gray;
+	padding:	10px; 
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+    Top: 150px;
+    left: 300px;
+    width: 500px;
+    height: 500px;
+}
+.cnvs {
+    position: relative;
+}
 
 /* main layout
 ----------------------------------------------------------*/
@@ -302,6 +318,8 @@ ol.round {
         ol.round li.nine {
             background: url("../Images/orderedList9.png") no-repeat;
         }
+
+#slider { margin: 10px; }
 
 /* content */
 article {
